@@ -24,8 +24,21 @@ import dotenv from 'dotenv'
     //     }
     // })()
     
-    dotenv.config({
-        path: './env'
+dotenv.config({
+    path: './env'
+})
+    
+connectDB()
+.then(()=>{
+    app.on("ERROR: ",(err)=>{
+        console.log("error: ",err);
+        throw err
     })
     
-    connectDB();
+    app.listen(process.env.PORT||8000,()=>{
+        console.log(`server is runnning at port ${process.env.PORT}`)
+    })
+})
+.catch((err)=>{
+    console.log("db connection error: ",err)
+});

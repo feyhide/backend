@@ -25,3 +25,27 @@ from connecting database till end....
     phir constant import nhi hoga solving
     constant.js karo in src/db
 
+//  Custom api response and error handling
+    
+    populating app.js
+
+    reading express request docs
+
+    need the cookie parser from npm
+    whenever we use middleware/config settings we do it with app.use
+
+    appjs importing using use
+    explore use options pls
+
+    limitation on json in appjs to avoid crashing
+    urlencoder for encoded url
+    static to store file folder or images in a public folder
+
+    creating asyncHandler
+
+    creating apiError
+
+    creating apiresponse
+
+
+

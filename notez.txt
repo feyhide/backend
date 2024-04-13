@@ -1,0 +1,27 @@
+from connecting database till end....
+
+//  MONGODB ALTAS
+    add a database project , never allow access from anywhere inside networkaccess
+    open env var add all stuff
+    "PORT AND MONGOGDBURI"
+
+    export in constantjs "dbname"
+
+    install dotenv, mongoose, express 
+
+    ALWAYS USE TRYCATCH OR PROMISES WHENEVER TALKING TO A DATABASE
+
+    firstapproach in index.js
+    secondapproach in db
+
+    load env var asap , in the first file which loads
+
+    import env in index
+
+    change script in packagejson "experimental"
+
+    npm run dev karo to error ayega but db/index import nhi hoga solving
+    index.js karo in src
+    phir constant import nhi hoga solving
+    constant.js karo in src/db
+

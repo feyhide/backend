@@ -47,5 +47,9 @@ from connecting database till end....
 
     creating apiresponse
 
+//  User and video model with hooks and JWT
+
+    creating models in /model
+    
 
 

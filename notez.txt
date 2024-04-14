@@ -50,6 +50,20 @@ from connecting database till end....
 //  User and video model with hooks and JWT
 
     creating models in /model
-    
+
+    install npm i mongoose-aggregate-paginate-v2
+
+    plugin in video model
+
+    install npm i bcrypt
+    install npm i jwt (jsonwebtoken)
+
+    implementing bcrypt to hash and check pass in usermodel
+
+    jwt is a bearer model jiske pass token usse data dedeta hai kutta
+    including token expiry secret in env
+
+    generating token inside user model via jwt
+
 
 
